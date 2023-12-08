@@ -1,0 +1,19 @@
+[project]
+name = "aoc_2023_01"
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "Raven", email = "sravendragon0@hotmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.scripts]
+test = "python tests/results.py"
+
